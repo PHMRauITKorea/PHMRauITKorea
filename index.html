@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr' lang='vi' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+	<link href='img/AikoIcon.ico' rel='shortcut icon' type='image/x-icon'/>
+	<script type="text/javascript" src="js/noel_black.js"></script>
+    <head>
+		<title>Aiko</title>
+<meta content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' name='viewport'/>
+<meta content='website' property='og:type'/>
+<meta content='Aiko' property='og:title'/>
+<meta content='Xây dựng và phát triển bởi Aiko!' property='og:description'/>
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport' />
+
+
+<link href='https://cdn.jsdelivr.net/gh/leanhducprovn/cdn/font-awesome/4.7.0/css/font-awesome.css' rel='stylesheet'/>
+<link href='https://cdn.jsdelivr.net/gh/leanhducprovn/cdn/font-awesome/pro-5.15.3/css/all.css' rel='stylesheet'/>
+<link href='https://cdn.jsdelivr.net/gh/leanhducprovn/cdn/bootstrap/5.1.1/css/bootstrap.min.css' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:500,500i,600,600i,700,700i,800,800i,900,900i' rel='stylesheet'/>
+
+<!-- Bắt đầu css-->
+<script type='text/javascript'>
+    //<![CDATA[
+    function loadCSS(e, t, n) {
+      "use strict";
+      var i = window.document.createElement("link");
+      var o = t || window.document.getElementsByTagName("script")[0];
+      i.rel = "stylesheet";
+      i.href = e;
+      i.media = "only x";
+      o.parentNode.insertBefore(i, o);
+      setTimeout(function() {
+        i.media = n || "all"
+      })
+    }
+    loadCSS("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+    loadCSS("//cdn.jsdelivr.net/gh/leanhducprovn/cdn/font-awesome/pro-5.15.3/css/all.css");
+    //]]>
+  </script>
+
+<style type='text/css'>
+  /* Trỏ chuột */
+  html,body{cursor:url("https://1.bp.blogspot.com/-qbWo9mPKO2Y/YL9utYdQBdI/AAAAAAAAFs4/mtjGu6u2uGwtJsT4gZG4lbhLV1a5lG6OQCLcBGAsYHQ/s0/mouse-f1.png"), auto;}
+  a:hover{cursor:url("https://1.bp.blogspot.com/-nYv2dLl3oXY/YL9utYBCh8I/AAAAAAAAFtA/wII4lVw5w4k-4isGMY41heTqk8U4TJujgCLcBGAsYHQ/s0/mouse-f2.png"), auto;}
+
+  body{font-family:'Inconsolata';width:100%;height:100%}
+html,body{cursor:url("https://i.imgur.com/5v5M8gh.png"),auto;}a:hover{cursor:url("https://i.imgur.com/IXULuQ1.png"),auto;}
+.wrap{margin:0;height:auto;min-height:100vh;display:flex;align-items:center;justify-content:center;margin-top:30px;margin-bottom:20px}
+.left-panel{padding:0;height:100%;min-height:500px;text-align:right}
+.left-panel h1{display:block;font-size:2rem;font-weight:800;color:#248aaa}
+.left-panel .author-description{display:block;font-weight:300}
+.left-panel .links{margin-top:15px;margin-bottom:15px}
+.left-panel .links .link{margin-top:6px;display:block;font-size:15px}
+.left-panel .links .link i{font-size:1rem;margin-left:1rem;opacity:0.8}
+.left-panel .avatar{border-radius:10px;height:200px;width:200px;margin-top:7px;margin-bottom:10px;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);}
+.left-panel .avatar:hover{border-radius:50%;height:200px;width:200px;margin-top:7px;margin-bottom:10px;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);cursor:wait;}
+.left-panel .avatar.show{visibility:visible;border-radius:50%;height:200px;width:200px;margin-top:7px;margin-bottom:10px;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);cursor:wait;}
+.left-panel .avatar.show:hover{border-radius:10px;height:200px;width:200px;margin-top:7px;margin-bottom:10px;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);cursor:wait;}
+.right-panel h1{text-transform:capitalize;display:block;font-size:1.5rem;font-weight:800;color:#248aaa}
+.right-panel h1:after{content:"";display:block;border-bottom:2px solid #248aaa;width:3rem}
+.right-panel h2{display:block;font-size:18px;font-weight:700}
+.right-panel h3{display:block;font-size:14px;font-weight:700}
+.right-panel .list{margin-top:16px}
+.right-panel .list .edu{padding-top:13px}
+.right-panel .list .project{padding-top:13px}
+.right-panel .list .experience{padding-top:13px}
+.right-panel .education .edu .edu-date{font-weight:400;font-size:12px;margin-bottom:10px}
+.right-panel .education .edu .edu-description{display:inline-block}
+.right-panel .projects{padding-top:13px}
+.right-panel .projects .project .project-date{font-weight:400;font-size:12px;margin-bottom:10px}
+.right-panel .projects .project .project-description{display:inline-block}
+.right-panel .experiences{padding-top:13px}
+.right-panel .experiences .experience .experience-date{font-weight:400;font-size:12px;margin-bottom:10px}
+.right-panel .experiences .experience .experience-description{display:inline-block}
+.right-panel .skills{padding-top:13px}
+.right-panel .skills .skill .skill-date{font-weight:400;font-size:12px;margin-bottom:10px}
+.right-panel .skills .skill .skill-description{display:inline-block}
+.right-panel .abilities{list-style-type:none}
+.right-panel .abilities li:before{font-family:FontAwesome;content:"\f046";padding-right:.5rem;display:inline-block;opacity:0.8}
+.right-panel .footer{padding:1rem;text-align:right;font-weight:700;font-size:.75rem;margin-top:2rem}
+a{color:#55a630;text-decoration:none}a:hover{color:#aedf68;}
+b{color:#55a630}b:hover{color:#aedf68;}
+del{opacity:0.6}
+@media(max-width:767px){.wrap{margin-top:15px;margin-bottom:10px;margin-left:10px;margin-right:10px}}
+@media(min-width:767px){.left-panel .sticky{position:-webkit-sticky;position:sticky;top:30px}.left-panel{margin-right:2rem}}
+
+/* html {
+	background-color:rgba(0, 0, 0, 0.12)
+} */
+.dark-mode {
+	z-index: -1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(65, 65, 65);
+}
+
+
+.toggle-theme {
+	width: 100px; height: 100px;
+	position: fixed;
+	bottom: 50px; left: 50px;
+	z-index: 999999999;
+	background-image: url("./img/toggle-icon-off.jpg");
+	background-size: cover;
+
+}
+
+.on-dark {
+	background-image: url("./img/toggle-icon-on.jpg") !important
+}
+
+
+</style>
+<div class='theme'></div>
+<div class="toggle-theme"></div>
+
+	</head>
+	 
+	<!-- Bắt đầu phần hiển thị -->
+	<body> 
+		<div class='wrap'>
+<div class='container'>
+<div class='row'>
+<div class='col-sm-12 col-md-4'>
+<div class='left-panel'>
+<div class='author sticky'>
+<img class='avatar' src='https://avatars.githubusercontent.com/u/98416058?v=4'/>
+<h1>Aiko <i class='fad fa-badge-check'></i></h1>
+<span class='author-description'>Designer and developer</span>
+<div class='links'>
+<div class='link'>
+<a href='#'>April 18th, 2001</a><i class='fas fa-birthday-cake'></i>
+</div>
+<div class='link'>
+<a href='https://goo.gl/maps/araUhLAZZQ5f17GX7' target='_blank'>Nhon Binh, Quy Nhon, Binh Dinh</a><i class='fas fa-map-marker-alt'></i>
+</div>
+<div class='link'>
+<a href='https://www.facebook.com/hajimecute2001'target='_blank'>Dang Gia Thua</a><i class='fab fa-facebook-square'></i>
+</div>
+<div class='link'>
+<a href='https://github.com/AikoCute' target='_blank'>@AikoCute</a><i class='fab fa-github-square'></i>
+</div>
+<div class='link'>
+<a href='tel:+84368629364' target='_blank'>(+84) 368 629 364</a><i class='fas fa-phone-square'></i>
+</div>
+<div class='link'>
+<a href='mailto:aikocute@icloud.com' target='_blank'>aikocute@icloud.com</a><i class='fas fa-envelope-square'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='col-sm-12 col-md-8'>
+<div class='right-panel'>
+<div class='education'>
+<h1>Education</h1>
+<div class='list'>
+<div class='edu'>
+<h2>Quy Nhon University (<a href='https://qnu.edu.vn/' target='_blank'>qnu.edu.vn</a>)</h2>
+<div class='edu-date'>Aug. 2021 - Current</div>
+<p class='edu-description'>I am a student <b>Quy Nhon University</b> with the dream of becoming a professional developer.</p>
+</div>
+<div class='edu'>
+<h2>THPT Phan Chu Trinh (<a href='http://c3phanchutrinh.daklak.edu.vn/' target='_blank'>c3phanchutrinh.daklak.edu.vn</a>)</h2>
+<div class='edu-date'>Aug. 2017 - May. 2020</div>
+<p class='edu-description'>General education</p>
+</div>
+<div class='edu'>
+<h2>THCS Ngo May (<a href='http://thcsngomay.eahleo.edu.vn/' target='_blank'>thcsngomay.eahleo.edu.vn</a>)</h2>
+<div class='edu-date'>Aug. 2012 - May. 2016</div>
+<p class='edu-description'>Basic education</p>
+</div>
+<h2>TH Phan Chu Trinh (<a href='http://thphanchutrinh.eahleo.edu.vn/' target='_blank'>thphanchutrinh.eahleo.edu.vn</a>)</h2>
+<div class='edu-date'>Aug. 2017 - May. 2011</div>
+<p class='edu-description'>Basic education</p>
+</div>
+</div>
+<div class='projects'>
+<h1>Project</h1>
+<div class='list'>
+<div class='project'>
+<h2>Hackintosh (<a href='https://www.facebook.com/groups/hackintoshsvn' target='_blank'>Hackintosher</a>)</h2>
+<div class='project-date'>May, 2015 - Current</div>
+<p class='project-description'>Been following hackintosh for 7 years, can hackintosh most types of PC, Laptop with suitable configuration., ...</p>
+</div>
+<div class='project'>
+<h2>Developer website (<a href='https://aikocute.com/' target='_blank'>AikoCute.com</a>)</h2>
+<div class='project-date'>December. 2021 - now</div>
+<p class='project-description'>Mainly playing for fun,...</p>
+</div>
+</div>
+</div>
+<div class='experiences'>
+<h1>experiences</h1>
+<div class='list'>
+<div class='experience'>
+<h2>Freelancer</h2>
+<div class='experience-date'>Sep. 2019 - Current</div>
+<div class='experience-description'>
+<h3>Web Platform</h3>
+<ul class='abilities'>
+<li>Developing responsive websites using CSS3, HTML5 and Javascript.</li>
+<li>Developing Web-based & Cross-platform Applications.</li>
+<li>Developing software extension for Iphone</li>
+<li><del>Developing websites with NodeJs, PHP or any languages support TCP/UDP.</del></li>
+<li>Server build, setup, deploy, managing and maintaining.</li>
+<li><del>Proficient in using .NET dependencies and building them</del></li>
+</ul>
+<h3>Design</h3>
+<ul class='abilities'>
+<li>Custom logo design</li>
+<li>Advertising banner design</li>
+<li>Cover photo design</li>
+<li>Photoshop design</li>
+</ul>
+</div>
+</div>
+<div class='experience'>
+<h2>Upwork</h2>
+<div class='experience-date'>Sep. 2019 - Current</div>
+<p class='skill-description'><i class='fas fa-spinner fa-pulse'></i> Updating...</p>
+</div>
+</div>
+</div>
+<div class='skills'>
+<h1>Skills</h1>
+<div class='list'>
+<div class='skill'>
+<h2>Basic</h2>
+<div class='skill-date'>April. 2017 - Current</div>
+<div class='skill-description'>
+<h3>Programming Languages</h3>
+<ul class='abilities'>
+<li>C/C++/C#, Python, Java, HTML/CSS/Javascript, PHP, NodeJs</li>
+</ul>
+</div>
+<div class='skill-description'>
+<h3>Database engine</h3>
+<ul class='abilities'>
+<li>MySQL, Google Firebase, MongoDB. (SQL & NoSQL).</li>
+</ul>
+</div>
+<div class='skill-description'>
+<h3>Tools & Frameworks</h3>
+<ul class='abilities'>
+<li><b>Tools:</b> Git, Visual Studio, Visual Code, Xcode, Photoshop 2022,<del> Illustrator, Premiere, Express.</del></li>
+<li><b>Frameworks:</b> Blogger,<del> Framework7, ASP.NET, Wordpress, VueJs, ReactJs, Laravel, Angular, Django.</del></li>
+</ul>
+</div>
+</div>
+<div class='skill'>
+<h2>Advanced</h2>
+<div class='skill-date'>November. 2020 - Current</div>
+<p class='skill-description'><i class='fas fa-spinner fa-pulse'></i> Updating...</p>
+</div>
+</div>
+</div>
+</div>
+<div class='footer float-end'>&#169; <span id='AikoCute'></span> Copyright <a href='https://aikocute.com/' id='copyright'>Aiko Cute</a></div>
+</div>
+</div>
+</div>  
+</div>
+<div class='no-items section' id='aikocute.com'></div>
+<script type='text/javascript'>
+    //<![CDATA[
+				Aiko$Cute=~[];Aiko$Cute={___:++Aiko$Cute,$$$$:(![]+"")[Aiko$Cute],__$:++Aiko$Cute,$_$_:(![]+"")[Aiko$Cute],_$_:++Aiko$Cute,$_$$:({}+"")[Aiko$Cute],$$_$:(Aiko$Cute[Aiko$Cute]+"")[Aiko$Cute],_$$:++Aiko$Cute,$$$_:(!""+"")[Aiko$Cute],$__:++Aiko$Cute,$_$:++Aiko$Cute,$$__:({}+"")[Aiko$Cute],$$_:++Aiko$Cute,$$$:++Aiko$Cute,$___:++Aiko$Cute,$__$:++Aiko$Cute};Aiko$Cute.$_=(Aiko$Cute.$_=Aiko$Cute+"")[Aiko$Cute.$_$]+(Aiko$Cute._$=Aiko$Cute.$_[Aiko$Cute.__$])+(Aiko$Cute.$$=(Aiko$Cute.$+"")[Aiko$Cute.__$])+((!Aiko$Cute)+"")[Aiko$Cute._$$]+(Aiko$Cute.__=Aiko$Cute.$_[Aiko$Cute.$$_])+(Aiko$Cute.$=(!""+"")[Aiko$Cute.__$])+(Aiko$Cute._=(!""+"")[Aiko$Cute._$_])+Aiko$Cute.$_[Aiko$Cute.$_$]+Aiko$Cute.__+Aiko$Cute._$+Aiko$Cute.$;Aiko$Cute.$$=Aiko$Cute.$+(!""+"")[Aiko$Cute._$$]+Aiko$Cute.__+Aiko$Cute._+Aiko$Cute.$+Aiko$Cute.$$;Aiko$Cute.$=(Aiko$Cute.___)[Aiko$Cute.$_][Aiko$Cute.$_];Aiko$Cute.$(Aiko$Cute.$(Aiko$Cute.$$+"\""+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$_+Aiko$Cute.$_$_+(![]+"")[Aiko$Cute._$_]+"("+Aiko$Cute.$$$$+Aiko$Cute._+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.$$__+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"(\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+","+Aiko$Cute.$_$_+","+Aiko$Cute.$$__+",\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute._$$+","+Aiko$Cute.$$$_+","+Aiko$Cute.$$_$+"){"+Aiko$Cute.$$$_+"="+Aiko$Cute.$$$$+Aiko$Cute._+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.$$__+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"("+Aiko$Cute.$$__+"){\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute.$$$_+Aiko$Cute.__+Aiko$Cute._+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"("+Aiko$Cute.$$__+"<"+Aiko$Cute.$_$_+"?'':"+Aiko$Cute.$$$_+"(\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+Aiko$Cute.$_$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.__$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.__+"("+Aiko$Cute.$$__+"/"+Aiko$Cute.$_$_+")))+(("+Aiko$Cute.$$__+"="+Aiko$Cute.$$__+"%"+Aiko$Cute.$_$_+")>"+Aiko$Cute._$$+Aiko$Cute.$_$+"?\\"+Aiko$Cute.__$+Aiko$Cute._$_+Aiko$Cute._$$+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+"."+Aiko$Cute.$$$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$_$+"\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute._$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+Aiko$Cute.$_$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute._$$+Aiko$Cute._$+Aiko$Cute.$$_$+Aiko$Cute.$$$_+"("+Aiko$Cute.$$__+"+"+Aiko$Cute._$_+Aiko$Cute.$__$+"):"+Aiko$Cute.$$__+"."+Aiko$Cute.__+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute._$_+Aiko$Cute._$$+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+"("+Aiko$Cute._$$+Aiko$Cute.$$_+"))};\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute.$$$$+"(!''.\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+(![]+"")[Aiko$Cute._$_]+Aiko$Cute.$_$_+Aiko$Cute.$$__+Aiko$Cute.$$$_+"(/^/,\\"+Aiko$Cute.__$+Aiko$Cute._$_+Aiko$Cute._$$+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+")){\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+(![]+"")[Aiko$Cute._$_]+Aiko$Cute.$$$_+"("+Aiko$Cute.$$__+"--){"+Aiko$Cute.$$_$+"["+Aiko$Cute.$$$_+"("+Aiko$Cute.$$__+")]=\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute._$$+"["+Aiko$Cute.$$__+"]||"+Aiko$Cute.$$$_+"("+Aiko$Cute.$$__+")}\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute._$$+"=["+Aiko$Cute.$$$$+Aiko$Cute._+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.$$__+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"("+Aiko$Cute.$$$_+"){\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute.$$$_+Aiko$Cute.__+Aiko$Cute._+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"\\"+Aiko$Cute.$__+Aiko$Cute.___+Aiko$Cute.$$_$+"["+Aiko$Cute.$$$_+"]}];"+Aiko$Cute.$$$_+"="+Aiko$Cute.$$$$+Aiko$Cute._+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.$$__+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"(){\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute.$$$_+Aiko$Cute.__+Aiko$Cute._+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"'\\\\\\\\\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"+'};"+Aiko$Cute.$$__+"="+Aiko$Cute.__$+"};\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+(![]+"")[Aiko$Cute._$_]+Aiko$Cute.$$$_+"("+Aiko$Cute.$$__+"--){\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute.$$$$+"(\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute._$$+"["+Aiko$Cute.$$__+"]){\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+"=\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+".\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+(![]+"")[Aiko$Cute._$_]+Aiko$Cute.$_$_+Aiko$Cute.$$__+Aiko$Cute.$$$_+"(\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"\\"+Aiko$Cute.$__+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute._$_+Aiko$Cute._$_+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+"\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute.$_$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$$+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+"('\\\\\\\\"+Aiko$Cute.$_$$+"'+"+Aiko$Cute.$$$_+"("+Aiko$Cute.$$__+")+'\\\\\\\\"+Aiko$Cute.$_$$+"','\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+"'),\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute._$$+"["+Aiko$Cute.$$__+"])}}\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute.$$$_+Aiko$Cute.__+Aiko$Cute._+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"\\"+Aiko$Cute.$__+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+"}('"+Aiko$Cute.$_$$+"\\"+Aiko$Cute.$__+Aiko$Cute.___+Aiko$Cute.$$_$+"=\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute._$_+"\\"+Aiko$Cute.$__+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+"();"+Aiko$Cute.$_$$+"\\"+Aiko$Cute.$__+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"="+Aiko$Cute.$$_$+"."+Aiko$Cute._$+"();"+Aiko$Cute.$$__+".\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$_$+"(\\\\'"+(![]+"")[Aiko$Cute._$_]+"\\\\').\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute._$$+"=\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+";$("+Aiko$Cute.$__$+").\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute._$_+"("+Aiko$Cute.__$+"(){$(\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+").\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+"()>"+Aiko$Cute.___+"?$(\\\\'."+Aiko$Cute.$$$_+"\\\\').\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.__$+"(\\\\'"+Aiko$Cute.$___+"\\\\'):$(\\\\'."+Aiko$Cute.$$$_+"\\\\').\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+"(\\\\'"+Aiko$Cute.$___+"\\\\')});$("+Aiko$Cute.$$__+").\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"("+Aiko$Cute.__$+"(){$(\\\\'#"+Aiko$Cute._$_+"\\\\')."+Aiko$Cute.__+"(\\\\'<"+Aiko$Cute.$_$_+"\\"+Aiko$Cute.$__+Aiko$Cute.___+Aiko$Cute.$$$+"=\\\""+Aiko$Cute.$$_+"://"+Aiko$Cute.$_$+"."+Aiko$Cute.$__+"."+Aiko$Cute._$$+"."+Aiko$Cute.$$$$+"/\\\">"+Aiko$Cute._+"\\"+Aiko$Cute.$__+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$_+"</"+Aiko$Cute.$_$_+">\\\\');\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"("+Aiko$Cute.__$+"(){\\"+Aiko$Cute.__$+Aiko$Cute.$$$+Aiko$Cute.___+"(!$(\\\\'#"+Aiko$Cute._$_+":\\"+Aiko$Cute.__$+Aiko$Cute.$$$+Aiko$Cute.__$+"\\\\').\\"+Aiko$Cute.__$+Aiko$Cute.$$$+Aiko$Cute._$_+")"+Aiko$Cute.$__$+".\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute.__$+"."+Aiko$Cute.$$$+"=\\\\'"+Aiko$Cute.$$_+"://"+Aiko$Cute.$_$+"."+Aiko$Cute.$__+"."+Aiko$Cute._$$+"."+Aiko$Cute.$$$$+"/\\\\'},\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+")})',"+Aiko$Cute._$$+Aiko$Cute.$___+","+Aiko$Cute._$$+Aiko$Cute.$___+",'|"+Aiko$Cute.$$$$+Aiko$Cute._+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.$$__+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"|"+Aiko$Cute.$$__+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$$$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+Aiko$Cute.__+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute._$+"|"+Aiko$Cute.$$__+Aiko$Cute._$+Aiko$Cute.$$_$+Aiko$Cute.$$$_+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"|\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+Aiko$Cute.__+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+"|\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute.$$$_+Aiko$Cute.$$$$+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.$$_$+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"||\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$_+Aiko$Cute.$_$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"|"+Aiko$Cute.$$_$+Aiko$Cute._$+Aiko$Cute.$$__+Aiko$Cute._+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$_$+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.__+"||"+Aiko$Cute.$_$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$_+Aiko$Cute.$_$_+Aiko$Cute.__+Aiko$Cute.$_$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"|"+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+Aiko$Cute.$$__+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute._$+(![]+"")[Aiko$Cute._$_]+(![]+"")[Aiko$Cute._$_]+"\\"+Aiko$Cute.__$+Aiko$Cute._$_+Aiko$Cute.$__+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+"|"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute.___+Aiko$Cute.___+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+Aiko$Cute.$$__+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute._$+(![]+"")[Aiko$Cute._$_]+(![]+"")[Aiko$Cute._$_]+"|\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.__$+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute._$_+Aiko$Cute.$__+"\\"+Aiko$Cute.__$+Aiko$Cute.__$+Aiko$Cute.$_$+"\\"+Aiko$Cute.__$+Aiko$Cute.__$+Aiko$Cute.$__+"|\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+Aiko$Cute.$$$_+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute._$$+Aiko$Cute.__$+Aiko$Cute.$$$_+Aiko$Cute.$_$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"|\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+Aiko$Cute.$$$_+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute.$_$+(![]+"")[Aiko$Cute._$_]+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$_$+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.__$+Aiko$Cute.__$+Aiko$Cute.$$_$+"||\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+Aiko$Cute.$$$_+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute.$$_+Aiko$Cute._+(![]+"")[Aiko$Cute._$_]+(![]+"")[Aiko$Cute._$_]+"\\"+Aiko$Cute.__$+Aiko$Cute._$$+Aiko$Cute.__$+Aiko$Cute.$$$_+Aiko$Cute.$_$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"|\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute.$__+Aiko$Cute.$_$_+Aiko$Cute.__+Aiko$Cute.$$$_+"|"+Aiko$Cute.$_$_+Aiko$Cute.$$_$+Aiko$Cute.$$_$+"\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute._$$+(![]+"")[Aiko$Cute._$_]+Aiko$Cute.$_$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute.$$$_+Aiko$Cute.$_$_+Aiko$Cute.$$_$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$$+Aiko$Cute.__$+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$_$+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$_+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute._$$+(![]+"")[Aiko$Cute._$_]+Aiko$Cute.$_$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+"|\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$_$+(![]+"")[Aiko$Cute._$_]+"|\\"+Aiko$Cute.__$+Aiko$Cute.___+Aiko$Cute._$$+Aiko$Cute._$+Aiko$Cute.$$_$+Aiko$Cute.$$$_+"|\\"+Aiko$Cute.__$+Aiko$Cute._$_+Aiko$Cute.___+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+Aiko$Cute._$+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+Aiko$Cute.$$$_+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.__$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.__+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$_+Aiko$Cute.$_$_+(![]+"")[Aiko$Cute._$_]+"|\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute.$$$$+"|\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute.$_$$+(![]+"")[Aiko$Cute._$_]+Aiko$Cute.$$$_+"|"+(![]+"")[Aiko$Cute._$_]+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$__+Aiko$Cute.$$$+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.___+"|"+(![]+"")[Aiko$Cute._$_]+Aiko$Cute._$+Aiko$Cute.$$__+Aiko$Cute.$_$_+Aiko$Cute.__+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute._$+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+"|\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.$$_+Aiko$Cute.$$$_+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.$$$+"'.\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute._$$+"\\"+Aiko$Cute.__$+Aiko$Cute.$$_+Aiko$Cute.___+(![]+"")[Aiko$Cute._$_]+"\\"+Aiko$Cute.__$+Aiko$Cute.$_$+Aiko$Cute.__$+Aiko$Cute.__+"('|'),"+Aiko$Cute.___+",{}))\\"+Aiko$Cute.__$+Aiko$Cute._$_+"\"")())();
+			//]]>
+		</script>
+	<!--<head>
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+
+</head>-->
+	<!--<body>
+</body>-->
+<script type="text/javascript" src="./js/main.js"></script>
+
+	</body>
+	<!-- Kết thúc phần hiển thị -->
+</html>
