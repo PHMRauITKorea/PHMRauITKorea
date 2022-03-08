@@ -1,11 +1,9 @@
-<h2> Hi, I'm Aiko! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<h2> Hi, I'm HoangMinh! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 <img align='right' src="https://media2.giphy.com/media/XdUr7e0X1Kjeg/giphy.gif?cid=ecf05e47lt5b12equ4az5y3o4pbhvql2w6fednpsp7dp46n9&rid=giphy.gif&ct=g" width="230">
-<p><em>Student at <a href="https://qnu.edu.vn/">Quy Nhon University</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer at <a href="https://aikocute.com">AikoCute</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+<p><em>Code at <a href="https://aikocute.com/">AikoCute</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer at <a href="https://www.facebook.com/hoangminh.pham.125">Korea</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
-[![](https://img.shields.io/badge/MyZalo-@AikoCuteZalo-blue.svg)](https://zalo.me/0368629364)
-[![](https://img.shields.io/badge/MyTele-@AikocuteTele-blue.svg)](https://t.me/AikoCute_Player)
-
+[![](https://img.shields.io/badge/MyZalo-@AikoCuteZalo-blue.svg)](https://zalo.me/+821064657203)
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
@@ -15,7 +13,7 @@ const aiko = {
   Adjective: "Active",
   code: [Javascript, HTML, CSS, Python, Java],
   tools: [Docker, Backend, terminal Linux, SEToolkit, Mestaploit frameword],
-  Foreign Language: ["English", "Japanese", "vietnamese"],
+  Foreign Language: ["English", "Korea", "vietnamese"],
   tool:{
           GithubDesktop: "save code and project"
           googledrive: "save necessary documents",
