@@ -13,7 +13,7 @@ const aiko = {
   Adjective: "Active",
   code: [Javascript, HTML, CSS, Python, Java],
   tools: [Docker, Backend, terminal Linux, SEToolkit, Mestaploit frameword],
-  Foreign Language: ["English", "Korea", "vietnamese"],
+  Foreign Language: ["English", "Korean", "Chinese"],
   tool:{
           GithubDesktop: "save code and project"
           googledrive: "save necessary documents",
