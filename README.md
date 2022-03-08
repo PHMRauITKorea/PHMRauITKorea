@@ -3,7 +3,7 @@
 <p><em>Code at <a href="https://aikocute.com/">AikoCute</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer at <a href="https://www.facebook.com/hoangminh.pham.125">Korea</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
-[![](https://img.shields.io/badge/MyZalo-@AikoCuteZalo-blue.svg)](https://zalo.me/+821064657203)
+[![](https://img.shields.io/badge/MyZalo-@MinhRauKoreaZalo-blue.svg)](https://zalo.me/+821064657203)
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
