@@ -1,5 +1,5 @@
 <h2> Hi, I'm HoangMinh! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<img align='right' src="https://github.com/PHMRauITKorea/PHMRauITKorea/releases/download/0.0.1/Hinh-Anime-girl-toc-xanh-dang-yeu.jpg" width="230">
+<img align='right' src="https://github.com/PHMRauITKorea/PHMRauITKorea/releases/download/v0.0.1/Hinh-Anime-girl-toc-xanh-dang-yeu.jpg" width="230">
 <p><em>Code at <a href="https://aikocute.com/">AikoCute</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer at <a href="https://www.facebook.com/hoangminh.pham.125">Korea</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
